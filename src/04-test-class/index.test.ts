@@ -1,8 +1,5 @@
 // Uncomment the code below and write your tests
-import {
-  BankAccount,
-  InsufficientFundsError,
-} from './index';
+import { BankAccount, InsufficientFundsError } from './index';
 
 describe('BankAccount', () => {
   test('should create account with initial balance', () => {
